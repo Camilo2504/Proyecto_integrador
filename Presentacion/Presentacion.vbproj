@@ -88,28 +88,52 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Crear_usuario.Designer.vb">
-      <DependentUpon>Crear_usuario.vb</DependentUpon>
+    <Compile Include="Administrador\Usuario_crear.Designer.vb">
+      <DependentUpon>Usuario_crear.vb</DependentUpon>
     </Compile>
-    <Compile Include="Crear_usuario.vb">
+    <Compile Include="Administrador\Usuario_crear.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Listar_usuarios.Designer.vb">
-      <DependentUpon>Listar_usuarios.vb</DependentUpon>
+    <Compile Include="Aprobador\Aprobador_form.Designer.vb">
+      <DependentUpon>Aprobador_form.vb</DependentUpon>
     </Compile>
-    <Compile Include="Listar_usuarios.vb">
+    <Compile Include="Aprobador\Aprobador_form.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Editar_usuario.Designer.vb">
-      <DependentUpon>Editar_usuario.vb</DependentUpon>
+    <Compile Include="Aprobador\Legalizacion_pendiente.Designer.vb">
+      <DependentUpon>Legalizacion_pendiente.vb</DependentUpon>
     </Compile>
-    <Compile Include="Editar_usuario.vb">
+    <Compile Include="Aprobador\Legalizacion_pendiente.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Inactivar_usuario.Designer.vb">
-      <DependentUpon>Inactivar_usuario.vb</DependentUpon>
+    <Compile Include="Aprobador\Legalizacion_aprobada.Designer.vb">
+      <DependentUpon>Legalizacion_aprobada.vb</DependentUpon>
     </Compile>
-    <Compile Include="Inactivar_usuario.vb">
+    <Compile Include="Aprobador\Legalizacion_aprobada.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Aprobador\Legalizacion_rechazada.Designer.vb">
+      <DependentUpon>Legalizacion_rechazada.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Aprobador\Legalizacion_rechazada.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administrador\Usuario_listar.Designer.vb">
+      <DependentUpon>Usuario_listar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Administrador\Usuario_listar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administrador\Usuario_editar.Designer.vb">
+      <DependentUpon>Usuario_editar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Administrador\Usuario_editar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administrador\Usuario_inactivar.Designer.vb">
+      <DependentUpon>Usuario_inactivar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Administrador\Usuario_inactivar.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Login.vb">
@@ -119,10 +143,10 @@
       <DependentUpon>Login.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Usarios.Designer.vb">
-      <DependentUpon>Usarios.vb</DependentUpon>
+    <Compile Include="Administrador\Administrador_form.Designer.vb">
+      <DependentUpon>Administrador_form.vb</DependentUpon>
     </Compile>
-    <Compile Include="Usarios.vb">
+    <Compile Include="Administrador\Administrador_form.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -143,23 +167,35 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Crear_usuario.resx">
-      <DependentUpon>Crear_usuario.vb</DependentUpon>
+    <EmbeddedResource Include="Aprobador\Aprobador_form.resx">
+      <DependentUpon>Aprobador_form.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Editar_usuario.resx">
-      <DependentUpon>Editar_usuario.vb</DependentUpon>
+    <EmbeddedResource Include="Administrador\Usuario_crear.resx">
+      <DependentUpon>Usuario_crear.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Inactivar_usuario.resx">
-      <DependentUpon>Inactivar_usuario.vb</DependentUpon>
+    <EmbeddedResource Include="Administrador\Usuario_editar.resx">
+      <DependentUpon>Usuario_editar.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Listar_usuarios.resx">
-      <DependentUpon>Listar_usuarios.vb</DependentUpon>
+    <EmbeddedResource Include="Administrador\Usuario_inactivar.resx">
+      <DependentUpon>Usuario_inactivar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrador\Usuario_listar.resx">
+      <DependentUpon>Usuario_listar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Aprobador\Legalizacion_aprobada.resx">
+      <DependentUpon>Legalizacion_aprobada.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Aprobador\Legalizacion_pendiente.resx">
+      <DependentUpon>Legalizacion_pendiente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Aprobador\Legalizacion_rechazada.resx">
+      <DependentUpon>Legalizacion_rechazada.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Usarios.resx">
-      <DependentUpon>Usarios.vb</DependentUpon>
+    <EmbeddedResource Include="Administrador\Administrador_form.resx">
+      <DependentUpon>Administrador_form.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -188,6 +224,10 @@
     <ProjectReference Include="..\Negocio\Negocio.vbproj">
       <Project>{7cca93c9-5987-4dd7-891a-b1fdd03dd288}</Project>
       <Name>Negocio</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Transversal\Transversal.vbproj">
+      <Project>{8d3bf32d-430b-4739-846b-8fee5f3aaa62}</Project>
+      <Name>Transversal</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />

@@ -64,7 +64,8 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.vb" />
+    <Compile Include="ModeloLegalizacion.vb" />
+    <Compile Include="ModeloUsuario.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -105,6 +106,11 @@
       <Project>{154212f4-56d5-4abf-9dda-cdea2a169198}</Project>
       <Name>Persistencia</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Transversal\Transversal.vbproj">
+      <Project>{8d3bf32d-430b-4739-846b-8fee5f3aaa62}</Project>
+      <Name>Transversal</Name>
+    </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

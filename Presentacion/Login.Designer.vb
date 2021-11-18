@@ -28,9 +28,9 @@ Partial Class Login
         Me.BtnExit = New FontAwesome.Sharp.IconButton()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.Log = New System.Windows.Forms.Button()
+        Me.btnLog = New System.Windows.Forms.Button()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
+        Me.chRemember = New System.Windows.Forms.CheckBox()
         Me.txtPassword = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.txtEmail = New System.Windows.Forms.TextBox()
@@ -99,9 +99,9 @@ Partial Class Login
         '
         'GroupBox1
         '
-        Me.GroupBox1.Controls.Add(Me.Log)
+        Me.GroupBox1.Controls.Add(Me.btnLog)
         Me.GroupBox1.Controls.Add(Me.PictureBox1)
-        Me.GroupBox1.Controls.Add(Me.CheckBox1)
+        Me.GroupBox1.Controls.Add(Me.chRemember)
         Me.GroupBox1.Controls.Add(Me.txtPassword)
         Me.GroupBox1.Controls.Add(Me.Label2)
         Me.GroupBox1.Controls.Add(Me.txtEmail)
@@ -114,19 +114,19 @@ Partial Class Login
         Me.GroupBox1.TabIndex = 9
         Me.GroupBox1.TabStop = False
         '
-        'Log
+        'btnLog
         '
-        Me.Log.BackColor = System.Drawing.Color.FromArgb(CType(CType(17, Byte), Integer), CType(CType(97, Byte), Integer), CType(CType(215, Byte), Integer))
-        Me.Log.FlatAppearance.BorderSize = 0
-        Me.Log.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Log.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Log.ForeColor = System.Drawing.Color.White
-        Me.Log.Location = New System.Drawing.Point(39, 507)
-        Me.Log.Name = "Log"
-        Me.Log.Size = New System.Drawing.Size(350, 42)
-        Me.Log.TabIndex = 15
-        Me.Log.Text = "Iniciar sesión"
-        Me.Log.UseVisualStyleBackColor = False
+        Me.btnLog.BackColor = System.Drawing.Color.FromArgb(CType(CType(17, Byte), Integer), CType(CType(97, Byte), Integer), CType(CType(215, Byte), Integer))
+        Me.btnLog.FlatAppearance.BorderSize = 0
+        Me.btnLog.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnLog.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnLog.ForeColor = System.Drawing.Color.White
+        Me.btnLog.Location = New System.Drawing.Point(39, 507)
+        Me.btnLog.Name = "btnLog"
+        Me.btnLog.Size = New System.Drawing.Size(350, 42)
+        Me.btnLog.TabIndex = 15
+        Me.btnLog.Text = "Iniciar sesión"
+        Me.btnLog.UseVisualStyleBackColor = False
         '
         'PictureBox1
         '
@@ -138,17 +138,17 @@ Partial Class Login
         Me.PictureBox1.TabIndex = 14
         Me.PictureBox1.TabStop = False
         '
-        'CheckBox1
+        'chRemember
         '
-        Me.CheckBox1.AutoSize = True
-        Me.CheckBox1.Font = New System.Drawing.Font("Segoe UI", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox1.ForeColor = System.Drawing.Color.LightGray
-        Me.CheckBox1.Location = New System.Drawing.Point(151, 434)
-        Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.Size = New System.Drawing.Size(124, 27)
-        Me.CheckBox1.TabIndex = 13
-        Me.CheckBox1.Text = "Recordarme"
-        Me.CheckBox1.UseVisualStyleBackColor = True
+        Me.chRemember.AutoSize = True
+        Me.chRemember.Font = New System.Drawing.Font("Segoe UI", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.chRemember.ForeColor = System.Drawing.Color.LightGray
+        Me.chRemember.Location = New System.Drawing.Point(151, 434)
+        Me.chRemember.Name = "chRemember"
+        Me.chRemember.Size = New System.Drawing.Size(124, 27)
+        Me.chRemember.TabIndex = 13
+        Me.chRemember.Text = "Recordarme"
+        Me.chRemember.UseVisualStyleBackColor = True
         '
         'txtPassword
         '
@@ -217,9 +217,9 @@ Partial Class Login
     Friend WithEvents BtnMinimize As FontAwesome.Sharp.IconButton
     Friend WithEvents BtnExit As FontAwesome.Sharp.IconButton
     Friend WithEvents GroupBox1 As GroupBox
-    Friend WithEvents Log As Button
+    Friend WithEvents btnLog As Button
     Friend WithEvents PictureBox1 As PictureBox
-    Friend WithEvents CheckBox1 As CheckBox
+    Friend WithEvents chRemember As CheckBox
     Friend WithEvents txtPassword As TextBox
     Friend WithEvents Label2 As Label
     Friend WithEvents txtEmail As TextBox

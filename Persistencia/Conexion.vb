@@ -6,7 +6,7 @@ Public MustInherit Class Conexion
 
     'Creo el constructor
     Protected Sub New()
-        connectionString = "server=localhost;user id=root;password=C5greenday;persistsecurityinfo=True;database=taller_visual"
+        connectionString = "server=localhost;user id=root;password=C5greenday;persistsecurityinfo=True;database=proyecto_integrador"
     End Sub
 
     'Creo un método para obtener la conexión

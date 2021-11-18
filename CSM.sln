@@ -9,6 +9,8 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Presentacion", "Presentacio
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Persistencia", "Persistencia\Persistencia.vbproj", "{154212F4-56D5-4ABF-9DDA-CDEA2A169198}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Transversal", "Transversal\Transversal.vbproj", "{8D3BF32D-430B-4739-846B-8FEE5F3AAA62}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{154212F4-56D5-4ABF-9DDA-CDEA2A169198}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{154212F4-56D5-4ABF-9DDA-CDEA2A169198}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{154212F4-56D5-4ABF-9DDA-CDEA2A169198}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D3BF32D-430B-4739-846B-8FEE5F3AAA62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D3BF32D-430B-4739-846B-8FEE5F3AAA62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D3BF32D-430B-4739-846B-8FEE5F3AAA62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D3BF32D-430B-4739-846B-8FEE5F3AAA62}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

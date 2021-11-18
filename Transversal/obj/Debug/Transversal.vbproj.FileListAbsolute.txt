@@ -1,0 +1,10 @@
+C:\Users\caman\source\repos\CSM\Transversal\bin\Debug\Transversal.dll
+C:\Users\caman\source\repos\CSM\Transversal\bin\Debug\Transversal.pdb
+C:\Users\caman\source\repos\CSM\Transversal\bin\Debug\Transversal.xml
+C:\Users\caman\source\repos\CSM\Transversal\obj\Debug\Transversal.vbproj.AssemblyReference.cache
+C:\Users\caman\source\repos\CSM\Transversal\obj\Debug\Transversal.Resources.resources
+C:\Users\caman\source\repos\CSM\Transversal\obj\Debug\Transversal.vbproj.GenerateResource.cache
+C:\Users\caman\source\repos\CSM\Transversal\obj\Debug\Transversal.vbproj.CoreCompileInputs.cache
+C:\Users\caman\source\repos\CSM\Transversal\obj\Debug\Transversal.dll
+C:\Users\caman\source\repos\CSM\Transversal\obj\Debug\Transversal.xml
+C:\Users\caman\source\repos\CSM\Transversal\obj\Debug\Transversal.pdb
